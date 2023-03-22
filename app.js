@@ -16,7 +16,7 @@ mongoose.set('strictQuery', true);
 //connecting to local server hosted database
 main().catch(err => console.log(err));
 async function main() {
-  await mongoose.connect('mongodb+srv://abhijeet:Test123@cluster0.jhedygn.mongodb.net/todolistDB');
+  await mongoose.connect('mongodb+srv://sonianiket9170:<password>@cluster0.nk6num8.mongodb.net/?retryWrites=true&w=majority/todolistDB');
   // use `await mongoose.connect('mongodb://user:password@127.0.0.1:27017/todolistDB');` if your database has auth enabled
 }
 
